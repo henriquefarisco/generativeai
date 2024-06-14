@@ -1,4 +1,3 @@
-```markdown
 # Generative AI Web Interface
 
 Esta é uma aplicação Flask que fornece uma interface web para interagir com um modelo de IA generativo, utilizando a API da Google. A aplicação permite que os usuários enviem perguntas e recebam respostas formatadas, incluindo código com numeração de linha e texto em negrito.
