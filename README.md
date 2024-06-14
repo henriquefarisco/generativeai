@@ -22,8 +22,8 @@ Esta é uma aplicação Flask que fornece uma interface web para interagir com u
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/henriquefarisco/web-gemini.git
-   cd web-gemini
+   git clone https://github.com/henriquefarisco/generativeai.git
+   cd generativeai
    ```
 
 2. Crie um ambiente virtual e ative-o:
@@ -77,9 +77,9 @@ Para acessar a aplicação pelo nome da máquina (por exemplo, `http://generativ
         index.html
     /static
         /css
-            styles.css
+            style.css
         /js
-            scripts.js
+            script.js
     app.py
 ```
 
