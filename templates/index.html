@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Schwarz IA</title> <!-- -- > MUDE PARA O NOME DA SUA IA </!-- -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Henrique Schwarz IA</h1> <!-- -- > MUDE PARA O NOME DA SUA IA </!-- -->
+        <form id="question-form">
+            <input type="text" id="question" placeholder="O que gostaria de saber?" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="response-container">
+            <div id="loading" style="display: none;">Enviando...</div>
+            <div id="response"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
